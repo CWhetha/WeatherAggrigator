@@ -1,0 +1,30 @@
+digraph "Day.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="Day.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="DataGetter.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DataGetter_8h.html",tooltip="The header file for DataGetter.cpp. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DataGetter.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DataGetter_8cpp.html",tooltip="program that gets the weather information we are using from an API "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip="executes the compiler "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mainwindow.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mainwindow_8cpp.html",tooltip="The front end userface that displays weather information. "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ForecastFactory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ForecastFactory_8h.html",tooltip="builds the forecast for the next couple of days "];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ForecastFactory.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ForecastFactory_8cpp.html",tooltip="creates and returns information for the weather forecast of the next week "];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="DayFactory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DayFactory_8h.html",tooltip="The header file for DayFactorycpp. "];
+  Node10 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="DayFactory.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DayFactory_8cpp.html",tooltip="reads in our json file and converts avg, max, and min temperatures from Kelvin to Celsius..."];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Day.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Day_8cpp.html",tooltip="Creates our day type and contains the getter methods to return information about current temperature..."];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

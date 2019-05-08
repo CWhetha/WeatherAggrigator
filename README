@@ -1,0 +1,11 @@
+Group Project designing and creating a weather aggrigator by using API's to get JSON files from major cities to format and output to the user. I worked on the GUI and Grapher aspects of this program (Grapher.cpp, main.cpp, mainwindow.cpp) through Qt using C++. 
+
+Use the following commands to install required dependencies:
+
+sudo apt-get install libjsoncpp-dev
+sudo apt-get install libcurl4-gnutls-dev
+
+To run:
+
+Open the build-Gui-Desktop_Qt_5_11_2_GCC_64bit-Release directory in terminal.
+run ./Gui ensuring you have QT version 5.11 installed on your machine.

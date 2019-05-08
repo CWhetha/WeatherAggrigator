@@ -1,0 +1,42 @@
+digraph "DataGetter.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="DataGetter.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DataGetter.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DataGetter_8h.html",tooltip="The header file for DataGetter.cpp. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="fstream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="curl/curl.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Day.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Day_8h.html",tooltip="The header file for Day.cpp. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="time.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ForecastFactory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ForecastFactory_8h.html",tooltip="builds the forecast for the next couple of days "];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="jsoncpp/json/json.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cmath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="DayFactory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$DayFactory_8h.html",tooltip="The header file for DayFactorycpp. "];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="jsoncpp/json/value.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
